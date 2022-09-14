@@ -1,9 +1,15 @@
 # SEVEN DIGITS DISPLAY Y LED RGB
 ## SEVEN DIGITS DISPLAY
-### En este apartado se presentaran 2 sensores y sus funciones
+### 
+![image](https://user-images.githubusercontent.com/106705252/190072737-21905130-1197-4b9d-a1c7-17af8391d21d.png)
 
 
+![](https://i.imgur.com/mGtHGtt.png)
 
+
+![](https://i.imgur.com/ARQBHKS.png)
+
+![](https://i.imgur.com/nhu17Fp.png)
 
 **Codigo 7 Segmentos Catodo Comun**
 
