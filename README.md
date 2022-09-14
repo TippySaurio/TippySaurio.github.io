@@ -27,8 +27,7 @@
 
 ![](https://i.imgur.com/O1oJ3Qf.png)
 
-![](https://i.imgur.com/ARQBHKS.png)
-
+### LED RGB significa LED rojo, azul y verde. Los productos LED RGB combinan estos tres colores para producir más de 16 millones de tonos de luz. Pero no todos los colores son posibles. Algunos se encuentran "fuera" del triángulo formado por los LED RGB.
 **Tabla sobre brillo necesario para generar el color**
 
 | Color      | Red | Green | Blue |
@@ -44,6 +43,10 @@
 | Orange     | 255 | 48    | 0    |
 | Cyan       | 0   | 255   | 48   |
 | Purple     | 48  | 0     | 255  |
+
+![](https://i.imgur.com/ARQBHKS.png)
+
+![](https://i.imgur.com/b3jc0Zl.png)
 
 ![](https://i.imgur.com/nhu17Fp.png)
 
@@ -71,4 +74,3 @@
 
 
 
-![](https://i.imgur.com/b3jc0Zl.png)
