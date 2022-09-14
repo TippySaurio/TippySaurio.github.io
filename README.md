@@ -6,6 +6,7 @@
 
 
 **Codigo 7 Segmentos Catodo Comun**
+
 | Numero |   | g | f | e | d | c | b | a |
 |:------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |    0   | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 |
@@ -24,6 +25,7 @@
 
 
 **Tabla sobre brillo necesario para generar el color**
+
 | Color      | Red | Green | Blue |
 |------------|-----|-------|------|
 | White      | 255 | 255   | 255  |
