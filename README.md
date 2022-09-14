@@ -1,15 +1,7 @@
 # SEVEN DIGITS DISPLAY Y LED RGB
-## SEVEN DIGITS DISPLAY
+![](https://i.imgur.com/oUoM72I.png)
 ### 
 ![image](https://user-images.githubusercontent.com/106705252/190072737-21905130-1197-4b9d-a1c7-17af8391d21d.png)
-
-
-![](https://i.imgur.com/mGtHGtt.png)
-
-
-![](https://i.imgur.com/ARQBHKS.png)
-
-![](https://i.imgur.com/nhu17Fp.png)
 
 **Codigo 7 Segmentos Catodo Comun**
 
@@ -26,9 +18,16 @@
 |    8   | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 |    9   | 0 | 1 | 1 | 0 | 0 | 1 | 1 | 1 |
 
+![](https://i.imgur.com/mGtHGtt.png)
+
+![](https://i.imgur.com/5EP8bap.png)
+
+![](https://i.imgur.com/b3jc0Zl.png)
 
 
+![](https://i.imgur.com/O1oJ3Qf.png)
 
+![](https://i.imgur.com/ARQBHKS.png)
 
 **Tabla sobre brillo necesario para generar el color**
 
@@ -46,6 +45,9 @@
 | Cyan       | 0   | 255   | 48   |
 | Purple     | 48  | 0     | 255  |
 
+![](https://i.imgur.com/nhu17Fp.png)
+
+![](https://i.imgur.com/j5rxitC.png)
 
 
 
@@ -63,3 +65,10 @@
 
 
 
+
+
+
+
+
+
+![](https://i.imgur.com/b3jc0Zl.png)
