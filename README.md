@@ -1,10 +1,13 @@
 # SEVEN DIGITS DISPLAY Y LED RGB
 ![](https://i.imgur.com/oUoM72I.png)
-### 
+------------
+### Los displays de 7 segmentos son dispositivos electrónicos de visualización utilizados como una forma fácil de representar numerales decimales y una alternativa a los displays de matriz de puntos más complejos. Se llaman displays de segmentos porque están compuestos por varios segmentos que se encienden y apagan para dar la apariencia del glifo deseado. Los segmentos generalmente son LED individuales o cristales líquidos. 
+
 ![image](https://user-images.githubusercontent.com/106705252/190072737-21905130-1197-4b9d-a1c7-17af8391d21d.png)
 
-**Codigo 7 Segmentos Catodo Comun**
+### En esta tabla se ven los distintos valores que se tienen para poder activar un numero con los distintos pines que estos estan representados en la imagen anterior. Los displays de 7 segmentos empezaron a usarse de forma generalizada como una forma popular para visualizar números. Los displays de siete segmentos se emplean ampliamente en relojes digitales, medidores electrónicos, calculadoras básicas, pantallas de electrodomésticos, coches, y muchos otros dispositivos que muestran información numérica.
 
+**Codigo 7 Segmentos Catodo Comun**
 | Numero |   | g | f | e | d | c | b | a |
 |:------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |    0   | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 |
@@ -13,20 +16,26 @@
 |    3   | 0 | 1 | 0 | 0 | 1 | 1 | 1 | 1 |
 |    4   | 0 | 1 | 1 | 0 | 0 | 1 | 1 | 0 |
 |    5   | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 1 |
-|    6   | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 0 |
+|    6   | 0 | 1 | 1 | 1 | 1 | 1 | 0 | 1 |
 |    7   | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
 |    8   | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 |    9   | 0 | 1 | 1 | 0 | 0 | 1 | 1 | 1 |
-
-![](https://i.imgur.com/mGtHGtt.png)
-
-![](https://i.imgur.com/5EP8bap.png)
-
+------------
 ![](https://i.imgur.com/b3jc0Zl.png)
 
+### Su funcionamiento es bastante simple, se conecta la corriente al semiconductor superior del diodo (funciona gracias al trasvase de electrones entre dos materiales semiconductores, una pareja positivo-negativo) LED lo cual permitirá el paso de corriente eléctrica y hará que el semiconductor emita luz. El pin 3 es el anodo y el pin 8 el catodo comun para el caso que tengamso o utilicemos. 
+### Los displays de 7 segmentos pueden usar pantallas de cristal líquido (LCD), un diodo emisor de luz (LED) para cada segmento u otras técnicas de control o generación de luz como la descarga de gas de cátodo frío (Panaplex), fluorescente vacío, filamentos incandescentes (Numitron).
 
-![](https://i.imgur.com/O1oJ3Qf.png)
+![](https://i.imgur.com/5EP8bap.png)
+### El display ánodo común es aquel cuyos ánodos están conectados al mismo punto. Este tipo de display es controlado por ceros, le asigna a cada segmento un cero lógico. 
+### El display cátodo común es aquel que tiene el pin común conectado a los negativos de los LED’s. Esto significa que este tipo de display se controla con ‘1’ s lógicos o voltaje positivo.
+### El display de 7 segmentos funciona al activar y desactivar cada uno de los leds para formar los números deseados. En la siguiente imagen se muestra el numero 6 por catodo comun. 1	1	1	1	1	0	1, lo que activa los leds indicados al mandar un valor binario de activar.
+![](https://i.imgur.com/mGtHGtt.png)
 ------------
+![](https://i.imgur.com/O1oJ3Qf.png)
+
+------------
+
 ### LED RGB significa LED rojo, azul y verde. Los productos LED RGB combinan estos tres colores para producir más de 16 millones de tonos de luz. Pero no todos los colores son posibles. Algunos se encuentran "fuera" del triángulo formado por los LED RGB.
 
   **Tabla sobre brillo necesario para generar el color**
@@ -57,27 +66,3 @@
 ### Los LED modernos están disponibles en las longitudes de onda visibles, ultravioleta e infrarroja. Trabajan con una alta eficiencia de emisión, gracias a la cual producen mucha luz de forma que ahorran energía. Los productos modernos de este tipo están hechos de una variedad de materiales semiconductores, dependiendo del color. 
 ### Actualmente, los LEDs rojos se fabrican con fosfuro de aluminio y galio de indio (AlInGaP), lo que los hace más eficientes que los elementos con GaP o AlGaAs. Los diodos LED azules y verdes están compuestos principalmente por nitruro de galio y nitruro de galio e indio (GaN e InGaN). La cantidad de indio determina el color: cuanto más indio, mayor es la longitud de onda.
 ![](https://i.imgur.com/nhu17Fp.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
