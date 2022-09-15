@@ -11,6 +11,7 @@
 ### En esta tabla se ven los distintos valores que se tienen para poder activar un numero con los distintos pines que estos estan representados en la imagen anterior. Los displays de 7 segmentos empezaron a usarse de forma generalizada como una forma popular para visualizar números. Los displays de siete segmentos se emplean ampliamente en relojes digitales, medidores electrónicos, calculadoras básicas, pantallas de electrodomésticos, coches, y muchos otros dispositivos que muestran información numérica.
 
 **Codigo 7 Segmentos Catodo Comun**
+
 | Numero |   | g | f | e | d | c | b | a |
 |:------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |    0   | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 |
