@@ -88,3 +88,42 @@
 ### Actualmente, los LEDs rojos se fabrican con fosfuro de aluminio y galio de indio (AlInGaP), lo que los hace más eficientes que los elementos con GaP o AlGaAs. Los diodos LED azules y verdes están compuestos principalmente por nitruro de galio y nitruro de galio e indio (GaN e InGaN). La cantidad de indio determina el color: cuanto más indio, mayor es la longitud de onda.
 
 ![](https://i.imgur.com/nhu17Fp.png)
+# CODIGO
+###### import time
+###### import board
+###### import digitalio
+
+###### a = digitalio.DigitalInOut(board.GP4)
+###### a.direction = digitalio.Direction.OUTPUT
+###### b = digitalio.DigitalInOut(board.GP5)
+###### b.direction = digitalio.Direction.OUTPUT
+###### c = digitalio.DigitalInOut(board.GP8)
+###### c.direction = digitalio.Direction.OUTPUT
+###### d = digitalio.DigitalInOut(board.GP9)
+###### d.direction = digitalio.Direction.OUTPUT
+###### e = digitalio.DigitalInOut(board.GP12)
+###### e.direction = digitalio.Direction.OUTPUT
+###### f = digitalio.DigitalInOut(board.GP13)
+###### f.direction = digitalio.Direction.OUTPUT
+###### g = digitalio.DigitalInOut(board.GP22)
+###### g.direction = digitalio.Direction.OUTPUT
+
+###### a.value = True
+###### b.value = True
+###### c.value = True
+###### d.value = True
+###### e.value = True
+###### f.value = True
+###### g.value = True
+###### time.sleep(2.5)
+
+###### while True:
+######   a.value = False
+######   b.value = False
+######   c.value = True
+######   d.value = False
+######   e.value = False
+######   f.value = True
+######   g.value = False
+
+![](https://i.imgur.com/H7jgeq3.gif)
