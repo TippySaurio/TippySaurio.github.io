@@ -43,6 +43,46 @@
 
 ![](https://i.imgur.com/mGtHGtt.png)
 
+# CODIGO
+###### import time
+###### import board
+###### import digitalio
+
+###### a = digitalio.DigitalInOut(board.GP4)
+###### a.direction = digitalio.Direction.OUTPUT
+###### b = digitalio.DigitalInOut(board.GP5)
+###### b.direction = digitalio.Direction.OUTPUT
+###### c = digitalio.DigitalInOut(board.GP8)
+###### c.direction = digitalio.Direction.OUTPUT
+###### d = digitalio.DigitalInOut(board.GP9)
+###### d.direction = digitalio.Direction.OUTPUT
+###### e = digitalio.DigitalInOut(board.GP12)
+###### e.direction = digitalio.Direction.OUTPUT
+###### f = digitalio.DigitalInOut(board.GP13)
+###### f.direction = digitalio.Direction.OUTPUT
+###### g = digitalio.DigitalInOut(board.GP22)
+###### g.direction = digitalio.Direction.OUTPUT
+
+###### a.value = True
+###### b.value = True
+###### c.value = True
+###### d.value = True
+###### e.value = True
+###### f.value = True
+###### g.value = True
+###### time.sleep(2.5)
+
+###### while True:
+######   a.value = False
+######   b.value = False
+######   c.value = True
+######   d.value = False
+######   e.value = False
+######   f.value = True
+######   g.value = False
+
+![](https://i.imgur.com/H7jgeq3.gif)
+
 ------------
 
 ![](https://i.imgur.com/O1oJ3Qf.png)
@@ -91,39 +131,19 @@
 # CODIGO
 ###### import time
 ###### import board
-###### import digitalio
+###### import pwmio
 
-###### a = digitalio.DigitalInOut(board.GP4)
-###### a.direction = digitalio.Direction.OUTPUT
-###### b = digitalio.DigitalInOut(board.GP5)
-###### b.direction = digitalio.Direction.OUTPUT
-###### c = digitalio.DigitalInOut(board.GP8)
-###### c.direction = digitalio.Direction.OUTPUT
-###### d = digitalio.DigitalInOut(board.GP9)
-###### d.direction = digitalio.Direction.OUTPUT
-###### e = digitalio.DigitalInOut(board.GP12)
-###### e.direction = digitalio.Direction.OUTPUT
-###### f = digitalio.DigitalInOut(board.GP13)
-###### f.direction = digitalio.Direction.OUTPUT
-###### g = digitalio.DigitalInOut(board.GP22)
-###### g.direction = digitalio.Direction.OUTPUT
-
-###### a.value = True
-###### b.value = True
-###### c.value = True
-###### d.value = True
-###### e.value = True
-###### f.value = True
-###### g.value = True
-###### time.sleep(2.5)
+###### ledred = pwmio.PWMOut(board.GP28, frequency=980)
+###### ledblue = pwmio.PWMOut(board.GP26, frequency=980)
+###### ledgreen = pwmio.PWMOut(board.GP27, frequency=980)
 
 ###### while True:
-######   a.value = False
-######   b.value = False
-######   c.value = True
-######   d.value = False
-######   e.value = False
-######   f.value = True
-######   g.value = False
-
-![](https://i.imgur.com/H7jgeq3.gif)
+######   ledgreen.duty_cycle  = 100
+######   ledred.duty_cycle = 0
+######   ledblue.duty_cycle = 0
+######   time.sleep(2.5)
+######   ledgreen.duty_cycle  = 60000
+######   ledred.duty_cycle = 55600
+######   ledblue.duty_cycle = 52765
+######   time.sleep(2.5)
+![](https://i.imgur.com/meivXCa.gif)
